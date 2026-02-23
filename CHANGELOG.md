@@ -1,5 +1,14 @@
 # Change Log
 
+## View + Compose [1.0.1] - 2026-02-23
+
+- Forked from [leinardi/FloatingActionButtonSpeedDial](https://github.com/leinardi/FloatingActionButtonSpeedDial)
+- Updated copyright to Its-Chandan (2026)
+- Updated repository to [Its-Chandan/FloatingActionSpeedDialButton](https://github.com/Its-Chandan/FloatingActionSpeedDialButton)
+- Added `TYPE_DIRECT_IMAGE` support for Classic View: display a full-size PNG/image instead of a tinted icon inside a FAB shape
+- Added `isDirectImage` parameter for Compose: bypass FAB circular background to display a custom image directly
+- Migrated publishing to JitPack via `jitpack.yml`
+- Updated build tooling and Gradle configurations
 - Added some ProvidableCompositionLocals and improved Compose sample
 
 ## Compose [1.0.0-alpha04] - 2022-05-17

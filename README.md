@@ -1,9 +1,8 @@
-# Floating Action Button Speed Dial
-![Maven Central Compose](https://img.shields.io/maven-central/v/com.leinardi.android/speed-dial.compose?label=Compose)
-![Maven Central View](https://img.shields.io/maven-central/v/com.leinardi.android/speed-dial?label=View)
-[![Travis](https://img.shields.io/travis/Its-Chandan/FloatingActionButtonSpeedDial/master.svg)](https://travis-ci.org/Its-Chandan/FloatingActionButtonSpeedDial)
-[![GitHub license](https://img.shields.io/github/license/Its-Chandan/FloatingActionButtonSpeedDial.svg)](https://github.com/Its-Chandan/FloatingActionButtonSpeedDial/blob/master/LICENSE)
-[![Stars](https://img.shields.io/github/stars/Its-Chandan/FloatingActionButtonSpeedDial.svg?style=social&label=Stars)](https://github.com/Its-Chandan/FloatingActionButtonSpeedDial/stargazers)
+# FloatingActionSpeedDialButton
+[![JitPack](https://jitpack.io/v/Its-Chandan/FloatingActionSpeedDialButton.svg)](https://jitpack.io/#Its-Chandan/FloatingActionSpeedDialButton)
+[![Travis](https://img.shields.io/travis/Its-Chandan/FloatingActionSpeedDialButton/master.svg)](https://travis-ci.org/Its-Chandan/FloatingActionSpeedDialButton)
+[![GitHub license](https://img.shields.io/github/license/Its-Chandan/FloatingActionSpeedDialButton.svg)](https://github.com/Its-Chandan/FloatingActionSpeedDialButton/blob/master/LICENSE)
+[![Stars](https://img.shields.io/github/stars/Its-Chandan/FloatingActionSpeedDialButton.svg?style=social&label=Stars)](https://github.com/Its-Chandan/FloatingActionSpeedDialButton/stargazers)
 
 
 <img src="/art/demo_1.gif" width="290" align="right" hspace="0" />
@@ -30,23 +29,7 @@ for both classic View and Compose.
 
 ### Gradle setup
 
-#### Official releases
-
-The library is available on Jcenter so no additional repository is required.
-
-Dependencies entry (latest version on Maven Central ![Maven Central Compose](https://img.shields.io/maven-central/v/com.leinardi.android/speed-dial.compose?label=Compose) ![Maven Central View](https://img.shields.io/maven-central/v/com.leinardi.android/speed-dial?label=View)):
-
-```groovy
-// Compose only
-implementation "com.leinardi.android:speed-dial.compose:1.0.0-alpha04"
-
-// Classic View only
-implementation "com.leinardi.android:speed-dial:3.3.0"
-```
-
-#### Snapshots (development branch)
-
-You can use JitPack to test the latest `master` (remember that `master` is the development branch and can be unstable or completely broken).
+#### JitPack (Latest Release)
 
 Add the JitPack repository to your build file:
 
@@ -54,10 +37,22 @@ Add the JitPack repository to your build file:
 maven { url 'https://jitpack.io' }
 ```
 
-Add the dependency
+Add the dependency:
 
 ```groovy
-implementation 'com.github.Its-Chandan:FloatingActionButtonSpeedDial:master-SNAPSHOT'
+// Compose version
+implementation 'com.github.Its-Chandan.FloatingActionSpeedDialButton:library-compose:1.0.1'
+
+// Classic View version
+implementation 'com.github.Its-Chandan.FloatingActionSpeedDialButton:library-view:1.0.1'
+```
+
+#### Snapshots (development branch)
+
+You can use the latest `master` snapshot for testing:
+
+```groovy
+implementation 'com.github.Its-Chandan:FloatingActionSpeedDialButton:master-SNAPSHOT'
 ```
 
 ### Basic use for Compose
@@ -312,7 +307,7 @@ https://www.youtube.com/watch?v=tWowiF5ElAg
 
 ### Sample app
 
-[![Get it on the Play Store](/art/playstore_getiton.png)](https://play.google.com/store/apps/details?id=com.leinardi.android.speeddial.sample)
+Run the `/sample` module in Android Studio to try the demo.
 
 ## Screenshots
 
@@ -366,12 +361,13 @@ See the [CHANGELOG.md](/CHANGELOG.md)
 
 ## Credits
 
-This project is based on [floating-action-menu by ArthurGhazaryan](https://github.com/ArthurGhazaryan/floating-action-menu).
+This project is a fork of [leinardi/FloatingActionButtonSpeedDial](https://github.com/leinardi/FloatingActionButtonSpeedDial),
+which is based on [floating-action-menu by ArthurGhazaryan](https://github.com/ArthurGhazaryan/floating-action-menu).
 
 ## Licenses
 
 ```
-Copyright 2024 Its-Chandan.
+Copyright 2026 Its-Chandan.
 
 Licensed to the Apache Software Foundation (ASF) under one or more contributor
 license agreements.  See the NOTICE file distributed with this work for
