@@ -22,7 +22,7 @@ plugins {
 }
 
 ext {
-    PUBLISH_GROUP_ID = 'com.leinardi.android'
+    PUBLISH_GROUP_ID = 'com.github.Its-Chandan'
     PUBLISH_VERSION = config.android.version_name_view
     PUBLISH_ARTIFACT_ID = 'speed-dial'
 }

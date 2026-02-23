@@ -57,7 +57,7 @@ maven { url 'https://jitpack.io' }
 Add the dependency
 
 ```groovy
-implementation 'com.github.leinardi:FloatingActionButtonSpeedDial:master-SNAPSHOT'
+implementation 'com.github.Its-Chandan:FloatingActionButtonSpeedDial:master-SNAPSHOT'
 ```
 
 ### Basic use for Compose

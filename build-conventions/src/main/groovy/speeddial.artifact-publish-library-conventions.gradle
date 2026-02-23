@@ -88,9 +88,9 @@ afterEvaluate {
                     }
                     developers {
                         developer {
-                            id = 'leinardi'
+                            id = 'Its-Chandan'
                             name = 'Its-Chandan'
-                            email = 'roberto@leinardi.com'
+                            email = 'its_chandan@outlook.com'
                         }
                     }
                     scm {
